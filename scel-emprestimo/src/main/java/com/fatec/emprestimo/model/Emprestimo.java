@@ -92,8 +92,6 @@ public class Emprestimo {
 		
 	}
 
-
-
 	public boolean ehDomingo(String data) {
 		boolean isValida = false;
 		DateTimeFormatter fmt = DateTimeFormat.forPattern("yyyy/MM/dd");
